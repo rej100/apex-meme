@@ -1,0 +1,23 @@
+﻿  dllmain.cpp
+C:\dev\CHAPXDL\CHAPXDL\VKGBOInterface.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\dev\CHAPXDL\CHAPXDL\VKGBOInterface.h(97,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\dev\CHAPXDL\CHAPXDL\globals.h(58,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\dev\CHAPXDL\CHAPXDL\globals.h(63,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\dev\CHAPXDL\CHAPXDL\threads.h(71,119): warning C4311: 'type cast': pointer truncation from 'PVOID' to 'int'
+C:\dev\CHAPXDL\CHAPXDL\threads.h(71,119): warning C4302: 'type cast': truncation from 'PVOID' to 'int'
+C:\dev\CHAPXDL\CHAPXDL\threads.h(113,113): warning C4311: 'type cast': pointer truncation from 'PVOID' to 'int'
+C:\dev\CHAPXDL\CHAPXDL\threads.h(113,113): warning C4302: 'type cast': truncation from 'PVOID' to 'int'
+C:\dev\CHAPXDL\CHAPXDL\threads.h(139,122): warning C4311: 'type cast': pointer truncation from 'PVOID' to 'int'
+C:\dev\CHAPXDL\CHAPXDL\threads.h(139,122): warning C4302: 'type cast': truncation from 'PVOID' to 'int'
+C:\dev\CHAPXDL\CHAPXDL\threads.h(140,133): warning C4311: 'type cast': pointer truncation from 'PVOID' to 'int'
+C:\dev\CHAPXDL\CHAPXDL\threads.h(140,133): warning C4302: 'type cast': truncation from 'PVOID' to 'int'
+C:\dev\CHAPXDL\CHAPXDL\threads.h(239,35): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+C:\dev\CHAPXDL\CHAPXDL\threads.h(240,35): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+C:\dev\CHAPXDL\CHAPXDL\threads.h(260,35): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+C:\dev\CHAPXDL\CHAPXDL\threads.h(261,35): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+  Generating code
+  4 of 477 functions ( 0.8%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CHAPXDL.vcxproj -> C:\dev\CHAPXDL\x64\Release\CHAPXDL.dll
