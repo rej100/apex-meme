@@ -113,7 +113,15 @@ namespace threads
                     int teamNum = (int)Vibe->ReadProcessMemory(g::procID, (PVOID)(entityAddy + off::m_iTeamNum));
                     if (teamNum != g::localPlayer.team)
                     {
-                        playerAddies.push_back(entityAddy);
+                        Vector3 tempOrigin;
+                        tempOrigin.x = Vibe->ReadProcessMemoryF(g::procID, (PVOID)(entityAddy + off::m_vecAbsOrigin + (0x4 * 0)));
+                        tempOrigin.y = Vibe->ReadProcessMemoryF(g::procID, (PVOID)(entityAddy + off::m_vecAbsOrigin + (0x4 * 1)));
+                        tempOrigin.z = Vibe->ReadProcessMemoryF(g::procID, (PVOID)(entityAddy + off::m_vecAbsOrigin + (0x4 * 2)));
+
+                        if (vector3dist(tempOrigin, localPlayer.origin) < g::entDist)
+                        {
+                            playerAddies.push_back(entityAddy);
+                        }
                     }
                 }
             }

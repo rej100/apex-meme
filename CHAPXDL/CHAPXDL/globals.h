@@ -72,6 +72,7 @@ namespace g
 
 	float aSmooth = 1.4f;
 	float aimDist = 5400.0f;
+	float entDist = 7000.0f;
 	float aimFov = 140.0f;
 	float aimSnap = 40.0f;
 

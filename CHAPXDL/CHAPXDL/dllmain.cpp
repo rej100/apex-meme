@@ -13,7 +13,7 @@ DWORD WINAPI MainThread(HMODULE hModule)
     freopen_s(&f, "CONIN$", "r", stdin);
     freopen_s(&f, "CONOUT$", "w", stdout);
 
-    std::cout << "CHAPXDL v7.1.5" << std::endl;
+    std::cout << "CHAPXDL v7.2.1" << std::endl;
 
     g::screenCenter.x = g::screenWidth / 2.0f;
     g::screenCenter.y = g::screenHeight / 2.0f;
